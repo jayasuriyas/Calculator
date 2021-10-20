@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div  class="screenCalculator">
+            <input type="text" id="screenCalculator">
+        </div>
+        <div class="rowCalculator clear">
+            <button class="operator" onclick="clearValue()">C</button>
+        </div>
+        <div class="rowCalculator">
+            <button class="value" onclick="clickValue(7)">7</button>
+            <button class="value" onclick="clickValue(8)">8</button>
+            <button class="value" onclick="clickValue(9)">9</button>
+            <button class="operator" onclick="clickValue('/')">&divide</button>
+        </div>
+        <div class="rowCalculator">
+            <button class="value" onclick="clickValue(4)">4</button>
+            <button class="value" onclick="clickValue(5)">5</button>
+            <button class="value" onclick="clickValue(6)">6</button>
+            <button class="operator" onclick="clickValue('*')">x</button>
+        </div>
+        <div class="rowCalculator">
+            <button class="value" onclick="clickValue(1)">1</button>
+            <button class="value" onclick="clickValue(2)">2</button>
+            <button class="value" onclick="clickValue(3)">3</button>
+            <button class="operator" onclick="clickValue('-')">-</button>
+        </div>
+        <div class="rowCalculator">
+            <button class="value" onclick="clickValue('.')">.</button>
+            <button class="value" onclick="clickValue(0)">0</button>
+            <button class="value" onclick="clickValue('+')">+</button>
+            <button class="operator" onclick="clickEqual()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

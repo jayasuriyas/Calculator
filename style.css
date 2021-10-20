@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    width: 0;
+    margin: 0;
+    background-color: #2d142c;
+    font-family: 'Orbitron', sans-serif;
+}
+.calculator{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #2d142c;
+    border-radius: 20px;
+    border: 1px solid #510a32;
+    box-shadow: 0 3px 6px #0000009d;
+    padding-bottom: 2%;
+}
+.screenCalculator{
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+.screenCalculator input{
+    color: #ee4540;
+    width: 75%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #2d142cf5;
+    border: 2px solid #510a32;
+    box-shadow: 0 3px 6px #0f0f0f5d;
+    outline: none;
+}
+.clear{
+    text-align: right;
+    margin-right: 10%;
+}
+.rowCalculator{
+    
+    padding:1%;
+}
+.rowCalculator button{
+    color: #c72c41;
+    background-color: #2d142c;
+    border-radius: 10px;
+    border: 1px solid #510a32;
+    box-shadow: 0 3px 6px #131212e1;
+}
+.rowCalculator button:hover{
+    box-shadow: none;
+    color: #921125;
+}
+.rowCalculator .value{
+    margin: 1%;
+    width: 60px;
+}
+.rowCalculator .operator{
+    margin: 1%;
+    width: 80px;
+}
